@@ -1,0 +1,627 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1e;
+}
+.bg-nav
+{
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 1000;
+    
+
+}
+header
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.homelayer
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layerheadding
+{
+    color: white !important;
+    text-align: center;
+}
+@media (min-width:768px) 
+{
+    .head
+{
+   font-size: 4.5rem; 
+}
+}
+@media (min-width:768px) and (max-width:992px) {
+    .head span
+    {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .head
+    {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 523px) {
+    .head span
+    {
+        display: block;
+    }
+}
+.head
+{
+    font-weight: 600;
+    line-height: 1.2;
+    color: white !important;
+}
+
+header p
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+header p::before
+{
+    content: "";
+    animation: typing 10s infinite;
+}
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    1% {
+        content: "D|";
+    }
+    2% {
+        content: "De|";
+    }
+    3% {
+        content: "Des|";
+    }
+    4% {
+        content: "Desi|";
+    }
+    5% {
+        content: "Desig|";
+    }
+    6% {
+        content: "Design|";
+    }
+    7% {
+        content: "Designe|";
+    }
+    8% {
+        content: "Designer|";
+    }
+    14% {
+        content: "Designer|";
+    }
+    15% {
+        content: "Designe|";
+    }
+    16% {
+        content: "Design|";
+    }
+    17% {
+        content: "Desig|";
+    }
+    18% {
+        content: "Desi|";
+    }
+    19% {
+        content: "Des|";
+    }
+    20% {
+        content: "De|";
+    }
+    21% {
+        content: "Dev|";
+    }
+    22% {
+        content: "Deve|";
+    }
+    23% {
+        content: "Devel|";
+    }
+    24% {
+        content: "Develo|";
+    }
+    25% {
+        content: "Develop|";
+    }
+    26% {
+        content: "Develope|";
+    }
+    27% {
+        content: "Developer|";
+    }
+    33% {
+        content: "Developer|";
+    }
+    34% {
+        content: "Develope|";
+    }
+    35% {
+        content: "Develop|";
+    }
+    36% {
+        content: "Develo|";
+    }
+    37% {
+        content: "Devel|";
+    }
+    38% {
+        content: "Deve|";
+    }
+    39% {
+        content: "Dev|";
+    }
+    40% {
+        content: "De|";
+    }
+    41% {
+        content: "D|";
+    }
+    42% {
+        content: "D|";
+    }
+    43% {
+        content: "|";
+    }
+    44% {
+        content: "F|";
+    }
+    45% {
+        content: "Fr|";
+    }
+    46% {
+        content: "Fre|";
+    }
+    47% {
+        content: "Free|";
+    }
+    48% {
+        content: "Freel|";
+    }
+    49% {
+        content: "Freela|";
+    }
+    50% {
+        content: "Freelan|";
+    }
+    51% {
+        content: "Freelanc|";
+    }
+    52% {
+        content: "Freelance|";
+    }
+    53% {
+        content: "Freelancer|";
+    }
+    59% {
+        content: "Freelancer|";
+    }
+    60% {
+        content: "Freelance|";
+    }
+    61% {
+        content: "Freelanc|";
+    }
+    62% {
+        content: "Freelan|";
+    }
+    63% {
+        content: "Freela|";
+    }
+    64% {
+        content: "Freel|";
+    }
+    65% {
+        content: "Free|";
+    }
+    66% {
+        content: "Fre|";
+    }
+    67% {
+        content: "Fr|";
+    }
+    68% {
+        content: "F|";
+    }
+    69% {
+        content: "|";
+    }
+    70% {
+        content: "P|";
+    }
+    71% {
+        content: "Ph|";
+    }
+    72% {
+        content: "Pho|";
+    }
+    73% {
+        content: "Phot|";
+    }
+    74% {
+        content: "Photo|";
+    }
+    75% {
+        content: "Photog|";
+    }
+    76% {
+        content: "Photogr|";
+    }
+    77% {
+        content: "Photogra|";
+    }
+    78% {
+        content: "Photograp|";
+    }
+    79% {
+        content: "Photograph|";
+    }
+    80% {
+        content: "Photographe|";
+    }
+    81% {
+        content: "Photographer|";
+    }
+    88% {
+        content: "Photographer|";
+    }
+    89% {
+        content: "Photographe|";
+    }
+    90% {
+        content: "Photograph|";
+    }
+    91% {
+        content: "Photograp|";
+    }
+    92% {
+        content: "Photogra|";
+    }
+    93% {
+        content: "Photogr|";
+    }
+    94% {
+        content: "Photog|";
+    }
+    95% {
+        content: "Photo|";
+    }
+    96% {
+        content: "Phot|";
+    }
+    97% {
+        content: "Pho|";
+    }
+    98% {
+        content: "Ph|";
+    }
+    99% {
+        content: "P|";
+    }
+    100% {
+        content: "|";
+    }
+}
+/*end home*/
+/*start about*/
+.about .container
+{
+    background-color: white;
+}
+.about p
+{
+    color: #4e4e4e;
+}
+.about span
+{
+    font-weight: bold;
+    color: black;
+}
+.about .skill
+{
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 1.1rem;
+}
+.about-head 
+{
+    font-size: 2rem;
+    position: relative;
+}
+.about-head:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+.about-content
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+/*end about*/
+/*start service*/
+.service .headding
+{
+    position: relative;
+}
+.service h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.service p
+{
+    color: #4e4e4e;
+}
+.service .headding:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: -5px;
+    left: 550px;
+}
+.service .card 
+{
+    border-radius: 20px;
+    border: 0;
+}
+.service .card .fas
+{
+    font-size: 40px;
+    color: #1e1e1e;
+    border: 10px solid #0078ff;
+    padding: 30px 20px;
+    margin: 0 120px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+.service .card:hover .fas
+{
+    background-color: #0078ff;
+    border-color: #8dc1fd;
+}
+.service .card h2
+{
+    font-size: 1.4rem;
+    padding: 0.4rem 0;
+    color: #1e1e1e;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.service .card p
+{
+    color: #4e4e4e;
+    line-height: 1.5;
+}
+/*end service*/
+/*start achievement*/
+.achievement
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.achievement-layer
+{
+    background-color: rgba(0, 120, 255, 0.7);
+    padding: 6rem 0rem;
+}
+.achievement .fas
+{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+    border: 10px solid rgb(230, 230, 230);
+    padding: 5px 10px;
+    margin: 0 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.achievement h5
+{
+    font-size: 2rem;
+    color: white;
+    line-height: 1.5;
+}
+.achievement p
+{
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5;
+}
+/*end achievement*/
+/*start portfolio*/
+.portfolio .headding
+{
+    position: relative;
+}
+.portfolio .headding .h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.portfolio .headding p
+{
+    color: #4e4e4e;
+}
+.portfolio .headding:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: -5px;
+    left: 550px;
+}
+.portfolio .card .card-body .icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #0078ff;
+    border: 3px solid #0078ff;
+    position: relative;
+}
+.portfolio .card .fas
+{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    font-size: 18px;
+}
+.portfolio .card p
+{
+    color: #4e4e4e;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+.portfolio .card span
+{
+    color: #0078ff;
+}
+.portfolio .card:hover img
+{
+    transform: scale(1.5, 1.5);
+}
+.portfolio .card img
+{
+    transition:  transform 1s ease-in-out;
+}
+.portfolio .card-img
+{
+    overflow: hidden;
+}
+/*end portfolio*/
+/*start carousel*/
+.test-Carousel
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel-layer
+{
+    background-color: rgba(0, 120, 255, 0.5);
+    padding: 11rem 0rem;
+}
+.carousel-container h3
+{
+    color: white !important;
+}
+.carousel-indicators
+{
+    top: 100%;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/*end carousel*/
+/*start blog*/
+.blog .headding
+{
+    position: relative;
+}
+.blog .headding .h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.blog .headding p
+{
+    color: #4e4e4e;
+}
+.blog .headding:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: -5px;
+    left: 550px;
+}
+.blog .card-img 
+{
+    position: relative;
+}
+.blog .card a{
+    font-size: 13px;
+    color: white;
+    background-color: #0078ff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+}
+.blog .card h5{
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    color: #1e1e1e;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 1rem;
+}
+.blog .card p
+{
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    padding: 0 1rem;
+}
+.blog .card .title img{
+    width: 40px !important;
+    margin-bottom: 20px;
+}
+.blog .card .title p
+{
+    padding: 1rem 5px;
+}
+.blog .card .time .far
+{
+    padding: 5px;
+}
+.blog .card-body
+{
+    padding: 0px;
+}
+.contact
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-layer
+{
+    background-color: rgba(0, 120, 255, 0.7);
+    padding: 6rem 0rem;
+}
+.contact .content
+{
+    background-color: white;
+}
+/*end blog*/
